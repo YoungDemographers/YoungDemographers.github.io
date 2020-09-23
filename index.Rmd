@@ -1,0 +1,16 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+Welcome to the **Young Demographers'** webpage. 
+
+The fact that you made it here means, that you have probabably heard about us before, which makes us jump by joy! 
+However, if you need any other information, you will most likely find it here.
+If you have any questions please write us to: yd.demographers@gmail.com. 
+
+We hope to see you in person in Prague or anywhere else. 
+
+
+If you talk about us on your social media, please use **#YoungDemographers**. 
+We also encourage you to talk about us offline with your collegues, friends, peers, grandmas, and spread the word that "Demography is fun!"

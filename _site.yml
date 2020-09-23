@@ -1,0 +1,22 @@
+name: "Young Demographers"
+output_dir: "."
+navbar:
+  title: "Young Demographers"
+  left:
+    - text: "About"
+      href: about.html
+    - text: "The Conference"
+      href: conference.html
+    - text: "The Team"
+      href: team.html
+    - text: "Napříč"
+      href: napric.html
+  right:
+    - icon: fa-envelope fa-lg
+      href: contact.html
+    - icon: fa-twitter fa-lg
+      href: https://twitter.com/hashtag/YoungDemographers
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
