@@ -1,11 +1,17 @@
 Our team is changing a bit each year with new Master's and PhD students coming and leaving. However, we would like to introduce you to those who you will meet with 99% certainty or who will reply to your emails, tweets and love letters (please send us some!).  
-
+ 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ### Dr Klára Hulíková
 One of the founding members of the conference. Demography enthusiast and very popular teacher. 
 She is keeping her eye on us and tries to calm down the most bonkers ideas we have.  
-research interests: *formal demogrpahy, mortality, demography education*
+research interests: *formal demography, mortality, demography education*
 
-### Jitka Slabá
+<p>&nbsp;</p>
+<p>&nbsp;</p>  
+### Jitka Slabá  
+  
+<img src="images/jitka.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">
 The greatest demography freak in the team. Lively, (slightly) crazy, friendly and loud in times of silence. 
 R promoter, goals setter, order giver and positive thinking and approach advocate. 
 She will certainly take you to the pub; the only thing to do is ask because she sometimes might feel overwhelmed when too many people around.  
@@ -13,23 +19,35 @@ research interest: *fertility, family planning*
 
 Jitka on [twitter](https://twitter.com/sljitka).
  
-
-### Anna Altová
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+### Anna Altová  
+  
+<img src="images/anca.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">
 Split personality team member. Demographer and social epidemiologist by training who feels like both and neither all the time. 
 You might find her running around stressed, trying to solve something which is not a problem at all or solving unsolvable without a single hesitation. 
-She feels great on the stage and surrounded by people and forces others to do the same. \  
-research interests: health, cancer epidmeiology
+She feels great on the stage and surrounded by people and forces others to do the same.   
+research interests: *health, cancer epidmeiology*
 
 Anna on [twitter](https://twitter.com/boruvka_a)
 
+<p>&nbsp;</p>
+<p>&nbsp;</p>
 ### Katka Maláková
+
+<img src="images/kacenka.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">
 The most positive member of the team. She will smile even when angry (which happens approximately once a year). 
 She will do anything & everything she is asked for, even if we ask too much. 
 If you persuade her to chat with you, you will love her instantly.  
-research interests: *healthcare services availability, mortality*
+research interests: *healthcare services availability, mortality*  
 
-
-### Bára Janáková
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+<p>&nbsp;</p> 
+### Bára Janáková  
+  
+<img src="images/bara.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">  
 The mum of the team. She always has all the finances and paperwork in order and tells us if we actually can do the crazy stuff we want to do. 
 Positive mind, firm hand, calm soul. 
 We love her and we would not be able to do anything without her.  
