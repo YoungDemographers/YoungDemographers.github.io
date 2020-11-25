@@ -22,8 +22,6 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
-<script src="site_libs/anchor-sections-1.0/anchor-sections.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
@@ -34,7 +32,7 @@
   div.column{display: inline-block; vertical-align: top; width: 50%;}
   div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
   ul.task-list{list-style: none;}
-    </style>
+      </style>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -347,7 +345,11 @@ $(document).ready(function () {
 </li>
 <li>Irena nám poradí <strong>Jak zaujmout nadprůměrné, průměrné i podprůměrné zároveň?</strong>: <em>Různé typy studentů si žádají různé přístupy. Jak vyhovět všem během jedné vyučovací jednotky? Příklady motivačních nástrojů.</em><br />
 </li>
-<li>Eva nám poví příběh <strong>Želvuška šla na vandr</strong>: <em>Je život v polárních ledovcových ekosystémech limitován opravdu mrazem? Jak dlouhé cesty jsou schopni zvládat tamní vrcholoví predátoři? Jak často cestují a jak?</em></li>
+<li>Eva nám poví příběh <strong>Želvuška šla na vandr</strong>: <em>Je život v polárních ledovcových ekosystémech limitován opravdu mrazem? Jak dlouhé cesty jsou schopni zvládat tamní vrcholoví predátoři? Jak často cestují a jak?</em><br />
+</li>
+<li>Carlos na nás bude apelovat s příspěvkem <strong>Interdisciplinarita jako základ efektivního řešení problematiky sexuálně přenosných infekcí</strong>: <em>Problematika sexuálně přenosných infekcí (STIs) představuje i v dnešní společnosti poměrně tabuizované a citlivé téma z čehož vyplývají i komplikace při jejím řešení. Problematika STIs výrazně přesahuje rámec infektologie a venerologie, zasahuje do oblasti sexuologie, sociologie, psychologie, dalších lékařských, ale i nelékařských vědních disciplín. Pro komplexní uchopení této problematiky je tedy inherentní přistupovat k tématu s notnou dávkou interdisciplinarity.</em></li>
+<li>Honza nás nakrmí svými vědomostmi <strong>Kdy se brambor rozhodne tvořit brambor?</strong>:<em>Tvorba hlíz je kontrolována několikery procesy. Proč je důležitý list? A co na to sacharóza?</em></li>
+<li>Vlasta představí krtky <strong>Morfometrická analýza pažní kosti u krtků</strong>:<em>Rod Talpa se v Evropě vyznačuje vysokou mírou endemity. Pomocí morfometrické analýzy z fosilních nálezů pažní kosti krtkovitých jsme zjistili, že většina humerální charakteristiky odpovídají proporcím malých forem z období raného pleistocénu, které jsou tradičně interpretovány jako samostatný druh Talpa minor (Freudenberg, 1914). Ve srovnání s nedávnými druhy, výrazně robustnějšími fenotypy popsanými jako Talpa europaea magna (Wondřich, 1893), je humer menší formy Talpa obecně štíhlejší, tuberculum teres je menší, zatímco caput humeri je širší v distální části.</em></li>
 </ul>
 <p><strong>A S ČÍM PŘIJDEŠ TY?</strong></p>
 </div>
@@ -361,7 +363,7 @@ $(document).ready(function () {
 
 // add bootstrap table styles to pandoc tables
 function bootstrapStylePandocTables() {
-  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
 }
 $(document).ready(function () {
   bootstrapStylePandocTables();
