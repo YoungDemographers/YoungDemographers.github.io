@@ -1,3 +1,8 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
 Our team is changing a bit each year with new Master's and PhD students coming and leaving. However, we would like to introduce you to those who you will meet with 99% certainty or who will reply to your emails, tweets and love letters (please send us some!).  
  
 <p>&nbsp;</p>
@@ -14,7 +19,7 @@ research interests: *formal demography, mortality, demography education*
 <p>&nbsp;</p>  
 <p>&nbsp;</p>  
 <p>&nbsp;</p>  
-### Jitka Slabá  
+### Dr Jitka Slabá  
   
 <img src="images/jitka.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">
 The greatest demography freak in the team. Lively, (slightly) crazy, friendly and loud in times of silence. 
@@ -55,7 +60,7 @@ Katka on [twitter](https://twitter.com/Kacka_Mal)
 <p>&nbsp;</p> 
 <p>&nbsp;</p> 
 
-### Bára Janáková  
+### Dr Bára Janáková  
   
 <img src="images/bara.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">  
 The mum of the team. She always has all the finances and paperwork in order and tells us if we actually can do the crazy stuff we want to do. 

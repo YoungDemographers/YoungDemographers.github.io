@@ -1,0 +1,27 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+We would like to acknowledge following people, organizations and institutions for supporting us either financially, organizationally or otherwise. 
+
+
+<img src="images/PRF_logo.jpg" style="height:2cm; margin-left: 20px">
+**[Faculty of Science, Charles University](https://www.natur.cuni.cz/eng?set_language=en)**
+
+<img src="images/KDGD_logo.png" style="height:2.5cm; margin-left: 20px">
+**[Department of Demography and Geodemography, Faculty of Science, Charles University](https://www.natur.cuni.cz/geography/department-of-demography-and-geodemography)**
+
+<img src="images/AYHD_logo.png" style="height:2cm; margin-left: 20px">
+**[Association for Young Historical Demographers](http://www.younghistoricaldemographers.com/)**
+
+<p>&nbsp;</p> 
+
+* **Vice-dean of the Geographical Institute, Faculty of Science, Charles University**
+
+* **The Student chamber of the Academic Senate of the Faculty of Science, Charles University**
+
+* **Dr Olga Kurtinová** 
+
+* **Helena Ferklová**
+

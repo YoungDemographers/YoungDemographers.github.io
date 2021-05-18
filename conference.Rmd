@@ -1,3 +1,8 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
 ### Conference of Young Demographers
 The annual international **Conference of Young Demographers** is held at the [Faculty of Science, Charles University](https://www.natur.cuni.cz/eng) traditionally in the first half of February. We welcome submissions from all fields of demography, as well as all related areas of population studies. We aim to create a relaxed and welcoming environment where especially early career researchers can share their work in progress and thoughts with their peers.
 
@@ -9,7 +14,7 @@ We encourage everyone to try new things; we love unorthodox ways of presenting t
 
 ***
 #### The **11.5^th^ Conference of Young demographers** is going online!####
-#### You can find the **Programme** in [**here**](https://drive.google.com/file/d/1tSGiEx4osU3XkSCl7A0fyI5W5mLcT3ZH/view?usp=sharing).####
+#### You can find the **Programme**  [**here**](https://drive.google.com/file/d/1tSGiEx4osU3XkSCl7A0fyI5W5mLcT3ZH/view?usp=sharing).####
 Please note that the programme is subject to change. 
 
 ***
@@ -23,9 +28,14 @@ The call for papers is now closed. We will looking forward to you submitting for
 Please find more information and the submission form for this year's conference **[here](https://bit.ly/3bmNGEw)**.
 
 ***
-#### The **12th Conference of Young Demographers** will be held in summer and you have a lot to look forward to!####
+#### The **12th Conference of Young Demographers** is unfortunatelly going online again!####
+#### You can find the **Programme**  [**here**](https://docs.google.com/document/d/1uN3iWEE0ZihcutTo9AxZHCJOpPKDLxO-rwMP1KcGVBQ/edit?usp=sharing).####
 ***
+We will meet in the virtual environment of [Gather Town](https://gather.town/) on **23^rd^ to 25^th^ June 2021** (Wednesday to Friday). Every participant will get 3 minutes to present his work in flash presentation followed by a 60 minute poster session. 
 
-We are super happy to announce that **Dr Mariona Lozano Riera** ([twitter](https://twitter.com/marionleitz)) and **Dr José Manuel Aburto** ([twitter](https://twitter.com/jm_aburto)) will be joining us in 2021 as keynote lecturers. The workshop will be organized by **Dr Ilya Kashnitsky** ([twitter](https://twitter.com/ikashnitsky)).
+Attendees/presenters can find more information in their emails. 
+
+We are super happy to announce that **Dr Mariona Lozano Riera** ([twitter](https://twitter.com/marionleitz)), **Dr José Manuel Aburto** ([twitter](https://twitter.com/jm_aburto)) and **Dr Ilya Kashnitsky** ([twitter](https://twitter.com/ikashnitsky)) will join us as keynote speakers.
+
 
 In case you have any questions about conference please do not hesitate to contact us!
