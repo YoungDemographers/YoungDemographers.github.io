@@ -1,3 +1,8 @@
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
 *As Young Demographers we also do some other activities for the people from our Faculty of Science. The rest of this page is therefore mainly for them.*
 
 ## Konference "Napříč"
@@ -8,19 +13,24 @@ Za tímto účelem, v době intenzivního sociální distancu, ordinujeme sociá
 Hlavním cílem našich konferencí (doufáme, že pravidelných), je seznámit se vzájemně s našimi odbornými zájmy. Inspirovat se a s trochou štěstí navázat i mezioborovou spolupráci.  
 
 ***
-### 0. ročník konference "Napříč"
-20 příspěvků. Dokonale připravených. Pouhé 3 minuty monologu jedné osoby a pak mnoho minut inspirativní diskuze ve větším i menším kolektivu.  
+### 0. ročník konference "Napříč" aneb _"kdo může ten přijde, kdo nemůže přijde příště"_
+20 (?) příspěvků. Dokonale připravených. Pouhé 3 minuty monologu jedné osoby a pak mnoho minut inspirativní diskuze ve větším i menším kolektivu.  
 
-**ROZHODNUTO: Jelikož se odkládání a reorganizace konferencí staly naším koníčkem** (viz například záložka [The Conference](https://youngdemographers.github.io/conference.html)), 
-**nultý ročník Napříč se odkládá. Vzhledem ke nepředvídatelnosti divé zvěře, jako je například PES nebo ministr zdravotnictví, je nultý ročník odložen, dokud nebudeme konferenci moci zorganizovat legálně. Nicméně konference BUDE!**
+<span style="color:navy">**ROZHODNUTO: PES je mrtev a my už nechceme nic odkládat, proto jsme se rozhodly pro spontánní akci a jak již podnázev našeho nultého ročníku napovídá: _kdo může, ten přijde, kdo nemůže přijde příště!_**<span>
 
-Rozhodly jsme se nepořádat další unáhlené pokusy ani doufání a dáme vám prostě vědět, až bude možné se na Albertově sejít (orientačně se jedná o stupeň 2, nicméně kdo ví, co se do té doby chudákovi psovi stane). Kdo nás zná, ví, že téměř všechno co děláme, je jeden velký punk. Doufáme, že pro to všichni budete mít pochopení a pokud by se nový termín nesetkal s vašimi časovými dispozicemi, nic se neděje, vezmeme vás na další Napříč!
+<span style="color:navy">**KDY: 24. července 2021 od 18:00**<span>
 
-Děkujeme za důvěru, podporu i milostné dopisy (papírové posílejte na Albertov 6).
+<span style="color:navy">**KDE: Amfiteátr na stráni mezi Albertovem a Viničnou** (v případě deště bude pankový přesun do budovy - nechte se překvapit kterou místností si budeme krýt záda)<span>
+
+Chcete-li se stále zúčastnit (**i pasivně!**), pak se prosím **registrujte [zde](https://docs.google.com/forms/d/e/1FAIpQLSdTsXRg_oz63GNAZrjUz5EtYo4Bh3nVM2qwyqpcmdGBadsJtA/viewform?usp=pp_url)** Téma můžete ponechat stejné (třeba je jen zkopírovat z [našich stránek](https://youngdemographers.github.io/napric0-prispevky), ale můžete zvolit i jiné.
+
+Vše ostatní zůstává stejné a doufáme, že se potkáme s co nejvíce přírodovědci!
+
+Slibujeme, že se v zimním semestru pokusíme uspořádat 1. ročník/semestřník a dát prostor vám všem, kteří si v létě užíváte dovolených a jiných kratochvílí!
 
 ***
 
-Už se nemůžete dočkat? My také ne... a jsme velice šťastné, že již máme [třináct příspěvků](https://youngdemographers.github.io/napric0-prispevky)!
+Už se nemůžete dočkat? My také ne... a jsme velice šťastné, že již máme [třináct přihlášených příspěvků](https://youngdemographers.github.io/napric0-prispevky)!
 
 Více si přečtěte [zde](https://drive.google.com/file/d/1T7jNMGQ6CsX1BiomOitX1GN95Y3m0or4/view?usp=sharing).  
 Přihlaste se [zde](https://docs.google.com/forms/d/e/1FAIpQLScmNP5Q-oHEjIB3rXSIjVWdWfxEXyUg0Fz0Pa8tvnqDzA0i8Q/viewform).  
