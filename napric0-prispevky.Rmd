@@ -1,5 +1,8 @@
-   ***
-   
+---
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
 # 0. ročník konference "Napříč": 5. prosince 2020  
 A již přihlášené příspěvky aneb na koho a co se můžete těšit...    
 
