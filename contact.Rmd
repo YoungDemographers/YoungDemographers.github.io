@@ -4,11 +4,12 @@ pagetitle: Contact
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-**Spolek Mladých demografů**  
+**Mladí demografové**  
 Přírodovědecká Fakulta  
 Univerzita Karlova  
 Albertov 6, 128 00  
 Praha 2, Česká republika  
+
 yd.demographers@gmail.com
 
 #YoungDemographers
