@@ -14,7 +14,7 @@ Therefore we encourage everyone to try new things and be bold; we  <span style="
 #### [The history of the Conference](https://youngdemographers.github.io/history.html)
 
 ***
-#### **14th Conference of Young Demographers** will happen on **8–10 February 2023, Prague** ####
+#### <span style="color:blue"> **14th Conference of Young Demographers** will happen on **8–10 February 2023, Prague** </span>####
 
 Unless something unexpected happens, we plan to make the conference fully on-site and in-person. 
 
