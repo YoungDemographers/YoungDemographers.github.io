@@ -13,6 +13,7 @@
 
 <title>Conference</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -143,15 +144,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -296,25 +293,68 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <div id="conference-of-young-demographers" class="section level3">
 <h3>Conference of Young Demographers</h3>
-<p>The annual international <strong>Conference of Young Demographers</strong> is held at the <a href="https://www.natur.cuni.cz/eng">Faculty of Science, Charles University</a> traditionally in the first half of February. We welcome submissions from all fields of demography, as well as all related areas of population studies. We aim to create a relaxed and welcoming environment where especially early career researchers can share their work in progress and thoughts with their peers.</p>
-<p>We understand the pressure they might feel at big international conferences full of well-established professors (we feel it too). So we try to provide an opportunity to try to present without worries, often for the first time in their lives. After 13 years we have become quite popular among (not only) European demographers, and many of them are returning to our conference each year. In spite of that, we still try to improve and find new ways of making the conference better, fresh and definitely not boring.</p>
-<p>Therefore we encourage everyone to try new things and be bold; we <span style="color:red">love</span> unconventional ways of presenting the research, and most importantly, we support fun. Because demography is fun.</p>
+<p>The annual international <strong>Conference of Young
+Demographers</strong> is held at the <a
+href="https://www.natur.cuni.cz/eng">Faculty of Science, Charles
+University</a> traditionally in the first half of February. We welcome
+submissions from all fields of demography, as well as all related areas
+of population studies. We aim to create a relaxed and welcoming
+environment where especially early career researchers can share their
+work in progress and thoughts with their peers.</p>
+<p>We understand the pressure they might feel at big international
+conferences full of well-established professors (we feel it too). So we
+try to provide an opportunity to try to present without worries, often
+for the first time in their lives. After 13 years we have become quite
+popular among (not only) European demographers, and many of them are
+returning to our conference each year. In spite of that, we still try to
+improve and find new ways of making the conference better, fresh and
+definitely not boring.</p>
+<p>Therefore we encourage everyone to try new things and be bold; we
+<span style="color:red">love</span> unconventional ways of presenting
+the research, and most importantly, we support fun. Because demography
+is fun.</p>
 <div id="the-history-of-the-conference" class="section level4">
-<h4><a href="https://youngdemographers.github.io/history.html">The history of the Conference</a></h4>
+<h4><a href="https://youngdemographers.github.io/history.html">The
+history of the Conference</a></h4>
 <hr />
 </div>
-<div id="th-conference-of-young-demographers-will-happen-on-810-february-2023-prague" class="section level4">
-<h4><span style="color:blue"> <strong>14th Conference of Young Demographers</strong> will happen on <strong>8–10 February 2023, Prague</strong> </span></h4>
-<p>Unless something unexpected happens, we plan to make the conference fully on-site and in-person.</p>
+<div
+id="th-conference-of-young-demographers-will-happen-on-810-february-2023-prague"
+class="section level4">
+<h4><span style="color:blue"> <strong>14th Conference of Young
+Demographers</strong> will happen on <strong>8–10 February 2023,
+Prague</strong> </span></h4>
+<p>Unless something unexpected happens, we plan to make the conference
+fully on-site and in-person.</p>
 </div>
-<div id="see-the-call-for-papers-already-you-can-submit-papers-until-21-october" class="section level4">
-<h4>See the <a href="https://docs.google.com/document/d/e/2PACX-1vSTHAFggEb84h70ZQNdH2iBP_WTAN0xWrnKoJWp_xTyv2SuybvlWefPgLX2jQeax2l6iFElfbnC_OLI/pub"><strong>call for papers</strong></a> already! You can submit papers until 21 October!</h4>
-<p>Do not forget to share the information with your friends, colleagues or on social media (using the #YoungDemographers). The more the merrier, right?</p>
+<div
+id="the-call-for-papers-is-now-closed-and-the-decisions-about-acceptance-have-been-sent."
+class="section level4">
+<h4>The Call for Papers is now closed and the decisions about acceptance
+have been sent.</h4>
+<p>Check your spam and other folders for more information. Please do not
+forget to register if you were accepted.</p>
+<p>The information about <strong>passive participation</strong> will be
+available in the second half of January 2023.</p>
+<p><a
+href="https://docs.google.com/document/d/e/2PACX-1vQysealCMOXlA9EOucxiJgy5Scxl2qV7xgYMW3JQvKPTlkHEE4NvqcMmuFUOiUuEYLPCReiX5_feuNs/pub"><strong>The
+final programme</strong></a> will be available in late January and is
+subject to change at any time.</p>
+<p>Do not forget to share the information with your friends, colleagues
+or on social media (using the #YoungDemographers). The more the merrier,
+right?</p>
 <hr />
-<p>We are all over the moon about our ongoing collaborattion with the <a href="https://www.younghistoricaldemographers.com/"><strong>Association for Young Historical Demographers</strong></a>!!!</p>
+<p>We are all over the moon about our ongoing collaborattion with the <a
+href="https://www.younghistoricaldemographers.com/"><strong>Association
+for Young Historical Demographers</strong></a>!!!</p>
 <hr />
-<p>Please note that we are unable to provide any financial support for your transport or other expenditures, however there is <em>no conference fee</em>.</p>
-<p>In case you have any questions about conference please do not hesitate to <a href="https://youngdemographers.github.io/contact.html">contact us</a>!</p>
+<p>Please note that we are unable to provide any financial support for
+your transport or other expenditures, however there is <em>no conference
+fee</em>.</p>
+<p>In case you have any questions about conference please do not
+hesitate to <a
+href="https://youngdemographers.github.io/contact.html">contact
+us</a>!</p>
 </div>
 </div>
 

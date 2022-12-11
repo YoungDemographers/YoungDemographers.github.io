@@ -13,6 +13,7 @@
 
 <title>Team</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -143,15 +144,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -294,14 +291,21 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p>Our team is changing a bit each year with new Master’s and PhD students coming and leaving. However, we would like to introduce you to those who you will meet with 99% certainty or who will reply to your emails, tweets and love letters (please send us some!).</p>
+<p>Our team is changing a bit each year with new Master’s and PhD
+students coming and leaving. However, we would like to introduce you to
+those who you will meet with 99% certainty or who will reply to your
+emails, tweets and love letters (please send us some!).</p>
 <p>
  
 </p>
 <div id="dr-klára-hulíková" class="section level3">
 <h3>Dr Klára Hulíková</h3>
-<p><img src="images/klara2.png" style="width:15%; border:3px solid; margin-right: 20px" align="left"> One of the founding members of the conference. Demography enthusiast and very popular teacher. She is keeping her eye on us and tries to calm down the most bonkers ideas we have.</p>
-<p>research interests: <em>formal demography, mortality, demography education</em></p>
+<p><img src="images/klara2.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">
+One of the founding members of the conference. Demography enthusiast and
+very popular teacher. She is keeping her eye on us and tries to calm
+down the most bonkers ideas we have.</p>
+<p>research interests: <em>formal demography, mortality, demography
+education</em></p>
 <p>
  
 </p>
@@ -317,7 +321,12 @@ $(document).ready(function () {
 </div>
 <div id="dr-jitka-slabá" class="section level3">
 <h3>Dr Jitka Slabá</h3>
-<p><img src="images/jitka.png" style="width:15%; border:3px solid; margin-right: 20px" align="left"> The greatest demography freak in the team. Lively, (slightly) crazy, friendly and loud in times of silence. R promoter, goals setter, order giver and positive thinking advocate. She will certainly take you to the pub; the only thing to do is ask because she sometimes might feel overwhelmed when too many people around.</p>
+<p><img src="images/jitka.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">
+The greatest demography freak in the team. Lively, (slightly) crazy,
+friendly and loud in times of silence. R promoter, goals setter, order
+giver and positive thinking advocate. She will certainly take you to the
+pub; the only thing to do is ask because she sometimes might feel
+overwhelmed when too many people around.</p>
 <p>research interest: <em>fertility, family planning</em></p>
 <p>Jitka on <a href="https://twitter.com/sljitka">twitter</a>.</p>
 <p>
@@ -329,7 +338,13 @@ $(document).ready(function () {
 </div>
 <div id="anna-altová" class="section level3">
 <h3>Anna Altová</h3>
-<p><img src="images/anca.png" style="width:15%; border:3px solid; margin-right: 20px" align="left"> Split personality team member. Demographer and social epidemiologist by training who feels like both and neither all the time. You might find her running around stressed, trying to solve something which is not a problem at all or solving unsolvable without a single hesitation. She feels great on the stage and surrounded by people and forces others to do the same.</p>
+<p><img src="images/anca.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">
+Split personality team member. Demographer and social epidemiologist by
+training who feels like both and neither all the time. You might find
+her running around stressed, trying to solve something which is not a
+problem at all or solving unsolvable without a single hesitation. She
+feels great on the stage and surrounded by people and forces others to
+do the same.</p>
 <p>research interests: <em>health, cancer epidmeiology</em></p>
 <p>Anna on <a href="https://twitter.com/boruvka_a">twitter</a></p>
 <p>
@@ -341,8 +356,13 @@ $(document).ready(function () {
 </div>
 <div id="katka-brázová" class="section level3">
 <h3>Katka Brázová</h3>
-<p><img src="images/kacenka.png" style="width:15%; border:3px solid; margin-right: 20px" align="left"> The most positive member of the team. She will smile even when angry (which happens approximately once a year). She will do anything &amp; everything she is asked for, even if we ask too much. If you persuade her to chat with you, you will love her instantly.</p>
-<p>research interests: <em>healthcare services availability, mortality</em></p>
+<p><img src="images/kacenka.png" style="width:15%; border:3px solid; margin-right: 20px" align="left">
+The most positive member of the team. She will smile even when angry
+(which happens approximately once a year). She will do anything &amp;
+everything she is asked for, even if we ask too much. If you persuade
+her to chat with you, you will love her instantly.</p>
+<p>research interests: <em>healthcare services availability,
+mortality</em></p>
 <p>Katka on <a href="https://twitter.com/Kacka_Mal">twitter</a></p>
 <p>
  
@@ -357,7 +377,10 @@ $(document).ready(function () {
 <div id="dr-bára-janáková" class="section level3">
 <h3>Dr Bára Janáková</h3>
 <p><img src="images/bara.png" style="width:15%; border:3px solid; margin-right: 20px" align="left"><br />
-The mum of the team. She always has all the finances and paperwork in order and tells us if we actually can do the crazy stuff we want to do. Positive mind, firm hand, calm soul. We love her and we would not be able to do anything without her.</p>
+The mum of the team. She always has all the finances and paperwork in
+order and tells us if we actually can do the crazy stuff we want to do.
+Positive mind, firm hand, calm soul. We love her and we would not be
+able to do anything without her.</p>
 <p>research interests: <em>historical demography</em></p>
 <p>
  
@@ -372,8 +395,31 @@ The mum of the team. She always has all the finances and paperwork in order and 
 <div id="martin-vondrášek" class="section level3">
 <h3>Martin Vondrášek</h3>
 <p><img src="images/martin.jpg" style="width:15%; border:3px solid; margin-right: 20px" align="left"><br />
-The newest member of the team. He will make the craziest ideas happen and he will do it with a smile on his face. He wants demography to be taught in high-schools and makes the best teaching materials (including the <a href="https://www.natur.cuni.cz/geografie/demografie-a-geodemografie/pro-skoly/hratky-s-demografii/vanocni-stromek-z-vekove-pyramidy/vanocni-stromek-z-vekove-pyramidy-obrazkovy-navod/at_download/file">population pyramid Christmas tree</a>). And he’s a singer!</p>
+He will make the craziest ideas happen and he will do it with a smile on
+his face. He wants demography to be taught in high-schools and makes the
+best teaching materials (including the <a
+href="https://www.natur.cuni.cz/geografie/demografie-a-geodemografie/pro-skoly/hratky-s-demografii/vanocni-stromek-z-vekove-pyramidy/vanocni-stromek-z-vekove-pyramidy-obrazkovy-navod/at_download/file">population
+pyramid Christmas tree</a>). And he’s a singer!</p>
 <p>research interests: <em>demography education</em></p>
+<p>
+ 
+</p>
+<p>
+ 
+</p>
+<p>
+ 
+</p>
+</div>
+<div id="adéla-pola" class="section level3">
+<h3>Adéla Pola</h3>
+<p><img src="images/adela.jpeg" style="width:15%; border:3px solid; margin-right: 20px" align="left"><br />
+Adéla was a bit forced into Young Demographers, but she secretly enjoys
+it. She the most gracious, calm and decent member of the group, probably
+because she is also a countess. She can be a bit shy, but she can also
+be a lot of fun. She handles everything from eating pad thai to
+complicated demographic modelling with grace most true to herself.</p>
+<p>research interests: <em>formal demography</em></p>
 </div>
 
 
