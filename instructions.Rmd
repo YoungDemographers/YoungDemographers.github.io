@@ -1,0 +1,30 @@
+---
+pagetitle: Instructions for Authors
+---
+
+<link rel="stylesheet" href="styles.css" type="text/css">
+
+Instructions for authors
+
+
+#### Oral sessions: ####
+
+Please, be ready to deliver a presentation for **8 minutes**. Each presentation will be followed by a Q&A session of about 5 minutes. You can use slides in standard formats like .ppt, .pptx, or .pdf (however, we do strongly recommend .pdf to avoid technical issues). Do not forget to upload the presentation into the folder provided to you through e-mail in time (please name your file only with your surname, e.g. altova.pdf). This is mainly to avoid technical difficulties on-site. You can also bring a USB drive with an updated version with you; however, if technical issues arise, we can use the updated version. 
+
+
+#### Poster sessions:####
+
+Each poster session will start with a flash presentation, where you will have **2 minutes** to summarise and advertise your research. During that, we will project your poster. Please upload your poster, ideally as a .png or .jpg, with high resolution into the folder provided to you through email in time (please name your file only with your surname, e.g. altova.jpg). Bring your physical poster to Prague with you. The **poster format should not exceed A1 (594 × 841 mm)** and this format is also highly recommended. We will provide adhesive tape, pins, or any other materials. 
+
+
+#### Weather ####
+
+Although it is warmer these days than usual, you are still coming to Prague in the middle of winter. Temperatures around 0 ° C can easily be expected in the first half of February, especially at night. We have heating in conference rooms, but the halls of the venue tend to get cold as well. Bring enough warm clothes and especially suitable shoes (the chances are rather low, but it might snow as well). We highly recommend layers that you can take on and off. Check the weather forecast before packing. 
+
+
+#### Getting around ####
+
+The conference venue is **Albertov 6, Praha 2**. There are many hotels, hostels, and Airbnb within walking distance from the venue to suit everyone's needs, search for places in [Praha 2/Prague 2](https://www.google.com/maps/place/Praha+2/@50.0737739,14.4304201,14z/data=!3m1!4b1!4m5!3m4!1s0x470b948be2ed9d95:0x500af0f6615b300!8m2!3d50.0744958!4d14.4355247) to be sure it is close. 
+
+Public transport in Prague is cheap, safe, and reliable. You can easily get by public transport from the airport. The introduction to public transport and how to get from the airport anywhere in the city for only 40 CZK (1.6 EUR) can be found [here](https://www.youtube.com/watch?v=57WeRN0Nrb4&ab_channel=HONESTGUIDE) (check out the Honest Guide channel for more Prague tips). Be careful if you decide to travel by taxi, always ask for the price beforehand or choose one of the popular apps: Bolt, Uber, Liftago, this way you will avoid disenchantment. But still, public transport is great in Prague or just take a walk.
+
