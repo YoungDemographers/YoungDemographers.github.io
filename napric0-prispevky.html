@@ -13,6 +13,7 @@
 
 <title>napric0-prispevky.knit</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -143,15 +144,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -269,6 +266,12 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="support.html">
+    <span class="fa fa-life-ring"></span>
+     
+  </a>
+</li>
+<li>
   <a href="contact.html">
     <span class="fa fa-envelope fa-lg"></span>
      
@@ -294,33 +297,88 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<div id="ročník-konference-napříč-5.-prosince-2020" class="section level1">
+<div id="ročník-konference-napříč-5.-prosince-2020"
+class="section level1">
 <h1>0. ročník konference “Napříč”: 5. prosince 2020</h1>
 <p>A již přihlášené příspěvky aneb na koho a co se můžete těšit…</p>
 <ul>
-<li>Tereza nás upozorní na <strong>Přehlížené mikrobiomy</strong>: <em>Ze všech tělních mikrobiomů se neustále skloňuje ten střevní, ale co ty ostatní? Nechte se přesvědčit o tom, že třeba orální nebo vaginální mikrobiom nezůstávají - co se týče zajímavostí - za střevním mikrobiomem nikterak pozadu!</em><br />
+<li>Tereza nás upozorní na <strong>Přehlížené mikrobiomy</strong>:
+<em>Ze všech tělních mikrobiomů se neustále skloňuje ten střevní, ale co
+ty ostatní? Nechte se přesvědčit o tom, že třeba orální nebo vaginální
+mikrobiom nezůstávají - co se týče zajímavostí - za střevním mikrobiomem
+nikterak pozadu!</em><br />
 </li>
-<li>Jan a jeho <strong>Komentovaná procházka vybranými myšími orgány</strong>: <em>Podejte mi ruku a nechte se vést… Light sheet fluorescenční mikroskopie v kombinaci s metodami projasňování tkání nám umožňují 3D zobrazování celých orgánů a ještě mnohem více!</em><br />
+<li>Jan a jeho <strong>Komentovaná procházka vybranými myšími
+orgány</strong>: <em>Podejte mi ruku a nechte se vést… Light sheet
+fluorescenční mikroskopie v kombinaci s metodami projasňování tkání nám
+umožňují 3D zobrazování celých orgánů a ještě mnohem více!</em><br />
 </li>
-<li>Iva a její příspěvek <strong>O nejnebezpečnějších a zároveň nejúžasnějších tvorech naší planety</strong>: <em>Víte, jaké zvíře na planetě zemi je nejvíc nebezpečné a způsobuje nejvíce lidských úmrtí? A které je zároveň úžasné a fascinující? Přijďte a nechte se překvapit :-)</em><br />
+<li>Iva a její příspěvek <strong>O nejnebezpečnějších a zároveň
+nejúžasnějších tvorech naší planety</strong>: <em>Víte, jaké zvíře na
+planetě zemi je nejvíc nebezpečné a způsobuje nejvíce lidských úmrtí? A
+které je zároveň úžasné a fascinující? Přijďte a nechte se překvapit
+:-)</em><br />
 </li>
-<li>Ivana nám nabídne <strong>Objetí: recept proti stárnutí</strong>: <em>Jedná se o téma multidisciplinární zasahující do oborů nejen přírodních a lékařských věd, ale také např. do psychologie a non-verbální komunikace. Příspěvek bude převážně zaměřen na zdravotní přínosy objímaní, ale zmíněny budou i tipy a techniky správného objetí. </em><br />
+<li>Ivana nám nabídne <strong>Objetí: recept proti stárnutí</strong>:
+<em>Jedná se o téma multidisciplinární zasahující do oborů nejen
+přírodních a lékařských věd, ale také např. do psychologie a
+non-verbální komunikace. Příspěvek bude převážně zaměřen na zdravotní
+přínosy objímaní, ale zmíněny budou i tipy a techniky správného objetí.
+</em><br />
 </li>
-<li>Radek nám něco poví <strong>O původu zdrojů organických aerosolů v ovzduší ČR</strong>: <em>Víte co to jsou atmosférické aerosoly a jakými procesy vznikají? Myslíte si že nevíte? Tak se pojďme společně přesvědčit o tom, že ty aerosoly i jejich zdroje, všichni moc dobře známe!</em><br />
+<li>Radek nám něco poví <strong>O původu zdrojů organických aerosolů v
+ovzduší ČR</strong>: <em>Víte co to jsou atmosférické aerosoly a jakými
+procesy vznikají? Myslíte si že nevíte? Tak se pojďme společně
+přesvědčit o tom, že ty aerosoly i jejich zdroje, všichni moc dobře
+známe!</em><br />
 </li>
-<li>Milada nám dá možnost volby <strong>Kontakt se stonožkou, stav beztíže ve vesmírné lodi nebo infarkt?</strong>: <em>Všichni jednou zaklepem na nebeskou bránu! Důvody jsou však různé, některé časté, jiné originální. Kdy splyneš s davem (zemřelých) a kdy budeš jedinečná (mrtvola)? Exkurz do analýzy příčin smrti.</em><br />
+<li>Milada nám dá možnost volby <strong>Kontakt se stonožkou, stav
+beztíže ve vesmírné lodi nebo infarkt?</strong>: <em>Všichni jednou
+zaklepem na nebeskou bránu! Důvody jsou však různé, některé časté, jiné
+originální. Kdy splyneš s davem (zemřelých) a kdy budeš jedinečná
+(mrtvola)? Exkurz do analýzy příčin smrti.</em><br />
 </li>
-<li>S Hankou nás čeká <strong>Výuka matematiky on-line</strong>: <em>Zkušenosti z on-line výukou matematiky na naší fakultě.</em><br />
+<li>S Hankou nás čeká <strong>Výuka matematiky on-line</strong>:
+<em>Zkušenosti z on-line výukou matematiky na naší fakultě.</em><br />
 </li>
-<li>Petra snad dorazí na konferenci a neřekne nám <strong>A já na ni zapomněl jako na smrt!</strong>: <em>Smrt - co to vlastně je? Opravdu se týká těch druhých a nás ne?Co nám již podle starých filosofů myšlenka na smrt dává a co bere?</em><br />
+<li>Petra snad dorazí na konferenci a neřekne nám <strong>A já na ni
+zapomněl jako na smrt!</strong>: <em>Smrt - co to vlastně je? Opravdu se
+týká těch druhých a nás ne?Co nám již podle starých filosofů myšlenka na
+smrt dává a co bere?</em><br />
 </li>
-<li>Irena nám poradí <strong>Jak zaujmout nadprůměrné, průměrné i podprůměrné zároveň?</strong>: <em>Různé typy studentů si žádají různé přístupy. Jak vyhovět všem během jedné vyučovací jednotky? Příklady motivačních nástrojů.</em><br />
+<li>Irena nám poradí <strong>Jak zaujmout nadprůměrné, průměrné i
+podprůměrné zároveň?</strong>: <em>Různé typy studentů si žádají různé
+přístupy. Jak vyhovět všem během jedné vyučovací jednotky? Příklady
+motivačních nástrojů.</em><br />
 </li>
-<li>Eva nám poví příběh <strong>Želvuška šla na vandr</strong>: <em>Je život v polárních ledovcových ekosystémech limitován opravdu mrazem? Jak dlouhé cesty jsou schopni zvládat tamní vrcholoví predátoři? Jak často cestují a jak?</em><br />
+<li>Eva nám poví příběh <strong>Želvuška šla na vandr</strong>: <em>Je
+život v polárních ledovcových ekosystémech limitován opravdu mrazem? Jak
+dlouhé cesty jsou schopni zvládat tamní vrcholoví predátoři? Jak často
+cestují a jak?</em><br />
 </li>
-<li>Carlos na nás bude apelovat s příspěvkem <strong>Interdisciplinarita jako základ efektivního řešení problematiky sexuálně přenosných infekcí</strong>: <em>Problematika sexuálně přenosných infekcí (STIs) představuje i v dnešní společnosti poměrně tabuizované a citlivé téma z čehož vyplývají i komplikace při jejím řešení. Problematika STIs výrazně přesahuje rámec infektologie a venerologie, zasahuje do oblasti sexuologie, sociologie, psychologie, dalších lékařských, ale i nelékařských vědních disciplín. Pro komplexní uchopení této problematiky je tedy inherentní přistupovat k tématu s notnou dávkou interdisciplinarity.</em></li>
-<li>Honza nás nakrmí svými vědomostmi <strong>Kdy se brambor rozhodne tvořit brambor?</strong>:<em>Tvorba hlíz je kontrolována několikery procesy. Proč je důležitý list? A co na to sacharóza?</em></li>
-<li>Vlasta představí krtky <strong>Morfometrická analýza pažní kosti u krtků</strong>:<em>Rod Talpa se v Evropě vyznačuje vysokou mírou endemity. Pomocí morfometrické analýzy z fosilních nálezů pažní kosti krtkovitých jsme zjistili, že většina humerální charakteristiky odpovídají proporcím malých forem z období raného pleistocénu, které jsou tradičně interpretovány jako samostatný druh Talpa minor (Freudenberg, 1914). Ve srovnání s nedávnými druhy, výrazně robustnějšími fenotypy popsanými jako Talpa europaea magna (Wondřich, 1893), je humer menší formy Talpa obecně štíhlejší, tuberculum teres je menší, zatímco caput humeri je širší v distální části.</em></li>
+<li>Carlos na nás bude apelovat s příspěvkem <strong>Interdisciplinarita
+jako základ efektivního řešení problematiky sexuálně přenosných
+infekcí</strong>: <em>Problematika sexuálně přenosných infekcí (STIs)
+představuje i v dnešní společnosti poměrně tabuizované a citlivé téma z
+čehož vyplývají i komplikace při jejím řešení. Problematika STIs výrazně
+přesahuje rámec infektologie a venerologie, zasahuje do oblasti
+sexuologie, sociologie, psychologie, dalších lékařských, ale i
+nelékařských vědních disciplín. Pro komplexní uchopení této problematiky
+je tedy inherentní přistupovat k tématu s notnou dávkou
+interdisciplinarity.</em></li>
+<li>Honza nás nakrmí svými vědomostmi <strong>Kdy se brambor rozhodne
+tvořit brambor?</strong>:<em>Tvorba hlíz je kontrolována několikery
+procesy. Proč je důležitý list? A co na to sacharóza?</em></li>
+<li>Vlasta představí krtky <strong>Morfometrická analýza pažní kosti u
+krtků</strong>:<em>Rod Talpa se v Evropě vyznačuje vysokou mírou
+endemity. Pomocí morfometrické analýzy z fosilních nálezů pažní kosti
+krtkovitých jsme zjistili, že většina humerální charakteristiky
+odpovídají proporcím malých forem z období raného pleistocénu, které
+jsou tradičně interpretovány jako samostatný druh Talpa minor
+(Freudenberg, 1914). Ve srovnání s nedávnými druhy, výrazně
+robustnějšími fenotypy popsanými jako Talpa europaea magna (Wondřich,
+1893), je humer menší formy Talpa obecně štíhlejší, tuberculum teres je
+menší, zatímco caput humeri je širší v distální části.</em></li>
 </ul>
 <p><strong>A S ČÍM PŘIJDEŠ TY?</strong></p>
 </div>

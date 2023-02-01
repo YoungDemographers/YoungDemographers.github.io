@@ -13,6 +13,7 @@
 
 <title>Napříč</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -143,15 +144,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -269,6 +266,12 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="support.html">
+    <span class="fa fa-life-ring"></span>
+     
+  </a>
+</li>
+<li>
   <a href="contact.html">
     <span class="fa fa-envelope fa-lg"></span>
      
@@ -294,32 +297,65 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p><em>As Young Demographers we also do some other activities for the people from our Faculty of Science. The rest of this page is therefore mainly for them.</em></p>
+<p><em>As Young Demographers we also do some other activities for the
+people from our Faculty of Science. The rest of this page is therefore
+mainly for them.</em></p>
 <div id="konference-napříč" class="section level2">
 <h2>Konference “Napříč”</h2>
-<p>Úplně na úvod musíme vyzdvihnout zásluhy Heleny Ferklové. Domníváme se, že nebýt jí, tak by spousta z nás nikdy skutečně nepochopila kolik úžasných lidí dělá neuvěřitelně mnoho zajímavých věcí napříč katedrami, sekcemi a celou fakultou. Jsme hrdými přírodovědci a toužíme potom setkávat se s ostaními hrdými přirodovědci.</p>
-<p>Za tímto účelem, v době intenzivního sociální distancu, ordinujeme sociální blízkost!</p>
-<p>Hlavním cílem našich konferencí (doufáme, že pravidelných), je seznámit se vzájemně s našimi odbornými zájmy. Inspirovat se a s trochou štěstí navázat i mezioborovou spolupráci.</p>
+<p>Úplně na úvod musíme vyzdvihnout zásluhy Heleny Ferklové. Domníváme
+se, že nebýt jí, tak by spousta z nás nikdy skutečně nepochopila kolik
+úžasných lidí dělá neuvěřitelně mnoho zajímavých věcí napříč katedrami,
+sekcemi a celou fakultou. Jsme hrdými přírodovědci a toužíme potom
+setkávat se s ostaními hrdými přirodovědci.</p>
+<p>Za tímto účelem, v době intenzivního sociální distancu, ordinujeme
+sociální blízkost!</p>
+<p>Hlavním cílem našich konferencí (doufáme, že pravidelných), je
+seznámit se vzájemně s našimi odbornými zájmy. Inspirovat se a s trochou
+štěstí navázat i mezioborovou spolupráci.</p>
 <hr />
-<div id="ročník-konference-napříč---vánoční-edice" class="section level3">
+<div id="ročník-konference-napříč---vánoční-edice"
+class="section level3">
 <h3>1. ročník konference “Napříč” - Vánoční edice</h3>
-<p>Pouhé 3 minuty monologu jedné osoby a pak mnoho minut inspirativní diskuze ve větším i menším kolektivu. A k tomu třeba i cukroví!</p>
-<p>PES je mrtev a ještě nevíme, jestli neobživne, ale doufáme, že se potkáme!</p>
-<p><span style="color:navy"><strong>KDY: 17. prosince 2021 od 16:30</strong><span></p>
-<p><span style="color:navy"><strong>KDE: budova Albertov 6</strong> (místnost bude upřesněna)<span></p>
-<p>Chcete-li se stále zúčastnit (<strong>i pasivně!</strong>), pak se prosím <strong>registrujte <a href="https://forms.gle/pUNLgVpZDR1LBSLr7">zde</a>.</strong></p>
+<p>Pouhé 3 minuty monologu jedné osoby a pak mnoho minut inspirativní
+diskuze ve větším i menším kolektivu. A k tomu třeba i cukroví!</p>
+<p>PES je mrtev a ještě nevíme, jestli neobživne, ale doufáme, že se
+potkáme!</p>
+<p><span style="color:navy"><strong>KDY: 17. prosince 2021 od
+16:30</strong><span></p>
+<p><span style="color:navy"><strong>KDE: budova Albertov 6</strong>
+(místnost bude upřesněna)<span></p>
+<p>Chcete-li se stále zúčastnit (<strong>i pasivně!</strong>), pak se
+prosím <strong>registrujte <a
+href="https://forms.gle/pUNLgVpZDR1LBSLr7">zde</a>.</strong></p>
 <p>Doufáme, že se potkáme s co nejvíce přírodovědci!</p>
 <hr />
-<p>Více si přečtěte <a href="https://drive.google.com/file/d/1T7jNMGQ6CsX1BiomOitX1GN95Y3m0or4/view?usp=sharing">tady</a>.</p>
-<p>Přihlaste se <a href="https://forms.gle/pUNLgVpZDR1LBSLr7">zde</a>.<br />
-Chcete-li mít přehled nezapomeňte se zapsat na náš <a href="https://docs.google.com/forms/d/e/1FAIpQLSetQ4e3fc4qpA-GR1qt7GNC6dxPjhEN3Xbbz9yuXf312E_RgQ/viewform">mail list</a></p>
+<p>Více si přečtěte <a
+href="https://drive.google.com/file/d/1T7jNMGQ6CsX1BiomOitX1GN95Y3m0or4/view?usp=sharing">tady</a>.</p>
+<p>Přihlaste se <a
+href="https://forms.gle/pUNLgVpZDR1LBSLr7">zde</a>.<br />
+Chcete-li mít přehled nezapomeňte se zapsat na náš <a
+href="https://docs.google.com/forms/d/e/1FAIpQLSetQ4e3fc4qpA-GR1qt7GNC6dxPjhEN3Xbbz9yuXf312E_RgQ/viewform">mail
+list</a></p>
 <hr />
-<p><strong>Upozornění:</strong> Přestože jsme přesvědčené o tom, že konference “Napříč” je velkým přínosem nejen naší fakultní akademické obci, ale i celému vědeckému světu, ráday bychom upozornily, že ji nelze zaměnit s oficiálními vědeckými aktivitami, které jsou po studentech a pracovnících požadovány (např. za účast na odborných konferencích atp.). Budeme však rády, pokud ji i tak budete vnímat jako příležitost pro osobní rozvoj a třeba ji zmíníte jako extrakurikulární aktivitu v ISP a příbuzných výkazech.</p>
+<p><strong>Upozornění:</strong> Přestože jsme přesvědčené o tom, že
+konference “Napříč” je velkým přínosem nejen naší fakultní akademické
+obci, ale i celému vědeckému světu, ráday bychom upozornily, že ji nelze
+zaměnit s oficiálními vědeckými aktivitami, které jsou po studentech a
+pracovnících požadovány (např. za účast na odborných konferencích atp.).
+Budeme však rády, pokud ji i tak budete vnímat jako příležitost pro
+osobní rozvoj a třeba ji zmíníte jako extrakurikulární aktivitu v ISP a
+příbuzných výkazech.</p>
 <hr />
-<p>V případě dlouhé chvíle si můžete prohlédnout (již neplatný) příspěvek v magazínu <a href="https://www.prirodovedci.cz/templates/modules/magazin/mobile/web/viewer.php?hash=MzMxL3ByaXJvZG92ZWRjaS0yMDIwLTA0LXdlYi0wMS5wZGY=">Přírodovědci.cz</a>. Nebo si raději přečíst rozhovor s panem děkanem nebo nějaký pěkný článek o kamení.</p>
+<p>V případě dlouhé chvíle si můžete prohlédnout (již neplatný)
+příspěvek v magazínu <a
+href="https://www.prirodovedci.cz/templates/modules/magazin/mobile/web/viewer.php?hash=MzMxL3ByaXJvZG92ZWRjaS0yMDIwLTA0LXdlYi0wMS5wZGY=">Přírodovědci.cz</a>.
+Nebo si raději přečíst rozhovor s panem děkanem nebo nějaký pěkný článek
+o kamení.</p>
 <p>My se na vás všechny těšíme a posíláme pusinku (sněhovou).</p>
-<p><strong>Milostné dopisy v elektronické podobě nám dál pište na:</strong><br />
-<em>jitka.slaba at natur.cuni.cz</em> <em>anna.altova at natur.cuni.cz</em></p>
+<p><strong>Milostné dopisy v elektronické podobě nám dál pište
+na:</strong><br />
+<em>jitka.slaba at natur.cuni.cz</em> <em>anna.altova at
+natur.cuni.cz</em></p>
 </div>
 </div>
 

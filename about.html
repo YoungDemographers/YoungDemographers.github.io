@@ -13,6 +13,7 @@
 
 <title>About</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -143,15 +144,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -269,6 +266,12 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="support.html">
+    <span class="fa fa-life-ring"></span>
+     
+  </a>
+</li>
+<li>
   <a href="contact.html">
     <span class="fa fa-envelope fa-lg"></span>
      
@@ -296,13 +299,27 @@ $(document).ready(function () {
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
 <div id="about-young-demographers" class="section level2">
 <h2>About Young Demographers</h2>
-<p>We are a group of young (at least in mind) demography enthusiasts, mostly PhD students from the Charles University. Besides working hard on our dissertations and research, we like to meet new people who are crazy about tables and figures, but who also like fun. We want to keep demography <strong>young</strong> and <strong>live</strong>. Our main activity is organizing the international conference for young demographers from all around the world.</p>
+<p>We are a group of young (at least in mind) demography enthusiasts,
+mostly PhD students from the Charles University. Besides working hard on
+our dissertations and research, we like to meet new people who are crazy
+about tables and figures, but who also like fun. We want to keep
+demography <strong>young</strong> and <strong>live</strong>. Our main
+activity is organizing the international conference for young
+demographers from all around the world.</p>
 </div>
 <div id="about-young-demographers-1" class="section level2">
 <h2>About young demographers</h2>
-<p>Although we have semi-official “club” of Young Demographers at the Charles University, we know that there are plenty more <strong>young demographers</strong> out there. They are smart and open-minded people who love science, demography, population studies, research and discovering new things. Besides being serious and rigorous in their papers and other official work, they do not hesitate to join us and have as much fun with demography as possible.</p>
+<p>Although we have semi-official “club” of Young Demographers at the
+Charles University, we know that there are plenty more <strong>young
+demographers</strong> out there. They are smart and open-minded people
+who love science, demography, population studies, research and
+discovering new things. Besides being serious and rigorous in their
+papers and other official work, they do not hesitate to join us and have
+as much fun with demography as possible.</p>
 <p><strong>They are you!</strong></p>
-<p>If you feel like being one of us, please send us a message, come to our conference or just say “Hi!” if you meet any of us somewhere. We will be looking forward do meeting you in person.</p>
+<p>If you feel like being one of us, please send us a message, come to
+our conference or just say “Hi!” if you meet any of us somewhere. We
+will be looking forward do meeting you in person.</p>
 </div>
 
 
