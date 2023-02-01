@@ -13,6 +13,7 @@
 
 <title>Support</title>
 
+<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -143,15 +144,11 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
+  // mark it active
+  menuAnchor.tab('show');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -269,6 +266,12 @@ $(document).ready(function () {
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li>
+  <a href="support.html">
+    <span class="fa fa-life-ring"></span>
+     
+  </a>
+</li>
+<li>
   <a href="contact.html">
     <span class="fa fa-envelope fa-lg"></span>
      
@@ -294,16 +297,50 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
-<p>We would like to acknowledge following people, organizations and institutions for supporting us either financially, organizationally or otherwise.</p>
-<p><img src="images/PRF_logo.jpg" style="height:2cm; margin-left: 20px"> <strong><a href="https://www.natur.cuni.cz/eng?set_language=en">Faculty of Science, Charles University</a></strong></p>
-<p><img src="images/KDGD_logo.png" style="height:2.5cm; margin-left: 20px"> <strong><a href="https://www.natur.cuni.cz/geography/department-of-demography-and-geodemography">Department of Demography and Geodemography, Faculty of Science, Charles University</a></strong></p>
-<p><img src="images/AYHD_logo.png" style="height:2cm; margin-left: 20px"> <strong><a href="http://www.younghistoricaldemographers.com/">Association for Young Historical Demographers</a></strong></p>
+<p>We would like to acknowledge following people, organizations and
+institutions for supporting us either financially, organizationally or
+otherwise.</p>
+<p><img src="images/PRF_logo.jpg" style="height:2cm; margin-left: 20px">
+<strong><a href="https://www.natur.cuni.cz/eng?set_language=en">Faculty
+of Science, Charles University</a></strong></p>
+<p><img src="images/KDGD_logo.PNG" style="height:2.5cm; margin-left: 20px">
+<strong><a
+href="https://www.natur.cuni.cz/geography/department-of-demography-and-geodemography">Department
+of Demography and Geodemography, Faculty of Science, Charles
+University</a></strong></p>
+<p><img src="images/AYHD_logo.png" style="height:2cm; margin-left: 20px">
+<strong><a
+href="http://www.younghistoricaldemographers.com/">Association for Young
+Historical Demographers</a></strong></p>
+<p><img src="images/radboud.png" style="height:1cm; margin-left: 20px">
+<strong><a
+href="https://www.ru.nl/rich/our-research/research-groups/radboud-group-historical-demography-family-history/">Radboud
+University: Radboud Group for Historical Demography and Family
+History</a></strong></p>
+<p><img src="images/posthumus.png" style="height:1cm; margin-left: 20px">
+<strong><a href="https://posthumusinstitute.org/">The N.W. Posthumus
+Institute: Research School for Economic and Social
+History</a></strong></p>
+<p><img src="images/eshd.png" style="height:2.5cm; margin-left: 20px">
+<strong><a href="https://www.eshd.eu/">European Society Of Historical
+Demography</a></strong></p>
+<p><img src="images/czso.jpg" style="height:1cm; margin-left: 20px">
+<strong><a href="https://www.czso.cz/">Czech Statistical
+Office</a></strong></p>
+<p><img src="images/isav.jpg" style="height:2cm; margin-left: 20px">
+<strong><a href="https://www.soc.cas.cz/en">Institute of Sociology,
+Czech Academy of Sciences</a></strong></p>
+<p><img src="images/sas.jpg" style="height:0.7cm; margin-left: 20px">
+<strong><a
+href="https://www.sas.com/en_us/software/stat.html">SAS</a></strong></p>
 <p>
  
 </p>
 <ul>
-<li><p><strong>Vice-dean of the Geographical Institute, Faculty of Science, Charles University</strong></p></li>
-<li><p><strong>The Student chamber of the Academic Senate of the Faculty of Science, Charles University</strong></p></li>
+<li><p><strong>Vice-dean of the Geographical Institute, Faculty of
+Science, Charles University</strong></p></li>
+<li><p><strong>The Student chamber of the Academic Senate of the Faculty
+of Science, Charles University</strong></p></li>
 <li><p><strong>Dr Olga Kurtinová</strong></p></li>
 <li><p><strong>Helena Ferklová</strong></p></li>
 </ul>

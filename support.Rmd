@@ -16,6 +16,24 @@ We would like to acknowledge following people, organizations and institutions fo
 <img src="images/AYHD_logo.png" style="height:2cm; margin-left: 20px">
 **[Association for Young Historical Demographers](http://www.younghistoricaldemographers.com/)**
 
+<img src="images/radboud.png" style="height:1cm; margin-left: 20px">
+**[Radboud University: Radboud Group for Historical Demography and Family History](https://www.ru.nl/rich/our-research/research-groups/radboud-group-historical-demography-family-history/)**
+
+<img src="images/posthumus.png" style="height:1cm; margin-left: 20px">
+**[The N.W. Posthumus Institute: Research School for Economic and Social History](https://posthumusinstitute.org/)**
+
+<img src="images/eshd.png" style="height:2.5cm; margin-left: 20px">
+**[European Society Of Historical Demography](https://www.eshd.eu/)**
+
+<img src="images/czso.jpg" style="height:1cm; margin-left: 20px">
+**[Czech Statistical Office](https://www.czso.cz/)**
+
+<img src="images/isav.jpg" style="height:2cm; margin-left: 20px">
+**[Institute of Sociology, Czech Academy of Sciences](https://www.soc.cas.cz/en)**
+
+<img src="images/sas.jpg" style="height:0.7cm; margin-left: 20px">
+**[SAS](https://www.sas.com/en_us/software/stat.html)**
+
 <p>&nbsp;</p> 
 
 * **Vice-dean of the Geographical Institute, Faculty of Science, Charles University**
