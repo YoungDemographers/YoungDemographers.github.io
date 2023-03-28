@@ -13,7 +13,7 @@
 
 <title>Other opportunities</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.18/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -313,22 +310,26 @@ href="https://www.oeaw.ac.at/vid/publications/serial-publications/vienna-yearboo
 class="uri">https://www.oeaw.ac.at/vid/publications/serial-publications/vienna-yearbook-of-population-research/call-for-papers-vypr</a></em></p>
 <hr />
 </div>
-<div
-id="special-issue-of-quality-of-life-journal-the-role-of-leisure-activities-and-leisure-time-in-quality-of-life-subjective-well-being-life-satisfaction"
+<div id="phd-position-at-the-university-of-st-andrews"
 class="section level4">
-<h4>Special issue of Quality of Life Journal: <em>“The role of leisure
-activities and leisure time in quality of life (subjective well-being,
-life satisfaction)”</em></h4>
-<p><strong>Type:</strong> Call submitting papers to thie Special Issue
-of <strong>Quality of Life</strong> on “The role of leisure activities
-and leisure time in quality of life”. Available for researchers from
-different disciplines, such as social epidemiology, health geography,
-(health) demography, sociology, social sciences, social anthropology,
-psychology and other related disciplines.</p>
-<p><strong>Deadline:</strong> 1 February 2023</p>
+<h4>PhD position at the University of St Andrews</h4>
+<p>Families and the long arm of COVID-19: Inequalities in the well-being
+of (young) adults and children before, during, and in the aftermath of
+the pandemic</p>
+<p><strong>Type:</strong> Call for applications</p>
+<p><strong>Deadline:</strong> 13 April 2023</p>
 <p><strong>Details:</strong> <em><a
-href="https://www.revistacalitateavietii.ro/journal/announcement/view/2"
-class="uri">https://www.revistacalitateavietii.ro/journal/announcement/view/2</a></em></p>
+href="https://www.sgsss.ac.uk/studentship/families-and-the-long-arm-of-covid-19-inequalities-in-the-well-being-of-young-adults-and-children-before-during-and-in-the-aftermath-of-the-pandemic/"
+class="uri">https://www.sgsss.ac.uk/studentship/families-and-the-long-arm-of-covid-19-inequalities-in-the-well-being-of-young-adults-and-children-before-during-and-in-the-aftermath-of-the-pandemic/</a></em></p>
+<hr />
+</div>
+<div id="wittgenstein-centre-conference-2023" class="section level4">
+<h4>WITTGENSTEIN CENTRE CONFERENCE 2023</h4>
+<p><strong>Type:</strong> Call for paper</p>
+<p><strong>Deadline:</strong> 30 June 2023</p>
+<p><strong>Details:</strong> <em><a
+href="https://www.oeaw.ac.at/vid/events/conferences/exploring-population-heterogeneities"
+class="uri">https://www.oeaw.ac.at/vid/events/conferences/exploring-population-heterogeneities</a></em></p>
 <hr />
 <p><strong>Do you have any other opportunity for YD audience? Send it to
 us and we will share it!</strong></p>
