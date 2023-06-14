@@ -5,6 +5,8 @@ pagetitle: Team
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 Our team is changing a bit each year with new Master's and PhD students coming and leaving. However, we would like to introduce you to those who you will meet with 99% certainty or who will reply to your emails, tweets and love letters (please send us some!).  
+
+<img src="images/team_2023.jpg" style="width:70%; border:3px solid; margin-right: 20px" align="center">
  
 <p>&nbsp;</p>
 
