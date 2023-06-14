@@ -5,7 +5,7 @@ pagetitle: Conference
 <link rel="stylesheet" href="styles.css" type="text/css">
 
 ### Conference of Young Demographers
-The annual international **Conference of Young Demographers** is held at the [Faculty of Science, Charles University](https://www.natur.cuni.cz/eng) traditionally in the first half of February. We welcome submissions from all fields of demography, as well as all related areas of population studies. We aim to create a relaxed and welcoming environment where especially early career researchers can share their work in progress and thoughts with their peers.
+The annual international **Conference of Young Demographers** is held at the [Faculty of Science, Charles University](https://www.natur.cuni.cz/eng) traditionally in the first half of February. We welcome submissions from all fields of demography, as well as all related areas of population studies (we are always kind to sociologists, epidemiologists and even economists). We aim to create a relaxed and welcoming environment where especially early career researchers can share their work in progress and thoughts with their peers.
 
 We understand the pressure they might feel at big international conferences full of well-established professors (we feel it too). So we try to provide an opportunity to try to present without worries, often for the first time in their lives. After 14 years we have become quite popular among (not only) European demographers, and many of them are returning to our conference each year. In spite of that, we still try to improve and find new ways of making the conference better, fresh and definitely not boring. 
 
