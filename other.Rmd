@@ -1,5 +1,5 @@
 ---
-pagetitle: Other opportunities
+pagetitle: Other
 ---
 
 <link rel="stylesheet" href="styles.css" type="text/css">

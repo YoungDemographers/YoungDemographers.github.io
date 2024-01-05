@@ -11,7 +11,7 @@ navbar:
       href: team.html
     - text: "Napříč"
       href: napric.html
-    - text: "Other opportunities"
+    - text: "Other"
       href: other.html
   right:
     - icon: fa fa-life-ring
