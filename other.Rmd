@@ -4,12 +4,10 @@ pagetitle: Other
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
+# Opportunities
 *Time to time we are ask to share some other opportunities with Young Demographers. We find it important to do that, since it is always great to remind that our ideas are great and our papers can be competitive to experienced scientists.*  
 
-
-***
-
-#### Come to Belfast!  
+### Come to Belfast!  
 **Type:** Call for Papers: 12th International Conference on Population Geographies, Belfast, 30th June - 3rd July 2024
 
 **Deadline:** 10 January 
@@ -23,10 +21,19 @@ About the International Conference on Population Geographies: The ICPG is a bien
 **More information:** http://go.qub.ac.uk/ICPG24 
 
 
+***
+
+# Inspirative demographic (art)work
+*And time to time we are also ask to share some other interesting and inspirational things. We think that demography is not just some scientific field, but it could be much more – fun, cognition, art and much more.* 
+
+### (Tak trochu jiná) doporučená demografická literatura
+*Note: Unfortunately, this poetry collection named "(A slightly different) recommended demographic literature" was written in Czech and there is no English translation (yet!).* 
+
+Básnická sbírka plná inspirativních básní a jiných životních mouder s čistě demografickou tématikou. Najdete v ní zrýmované postupy konstrukce demografických ukazatelů, demografické variace klasické poezie a mnoho dalšího. [Ve formátu pdf ji můžete otevřít a stáhnout zde.](https://drive.google.com/file/d/1oBIUUbv_bBFUAle0fTP3OG8jhuMoHkBr/view?usp=sharing)
 
 ***
 
-**Do you have any other opportunity for YD audience? Send it to us and we will share it!**  
+**Do you have any other opportunity or interesting work for share with YD audience? Send it to us and we will share it!**  
 
 *jitka.slaba at natur.cuni.cz*  
 *anna.altova at natur.cuni.cz*   

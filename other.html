@@ -13,7 +13,7 @@
 
 <title>Other</title>
 
-<script src="site_libs/header-attrs-2.14/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.24/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/paper.min.css" rel="stylesheet" />
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.4.2/css/v4-shims.min.css" rel="stylesheet" />
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -144,11 +144,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -177,8 +181,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -186,16 +190,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -297,13 +294,14 @@ $(document).ready(function () {
 
 
 <p><link rel="stylesheet" href="styles.css" type="text/css"></p>
+<div id="opportunities" class="section level1">
+<h1>Opportunities</h1>
 <p><em>Time to time we are ask to share some other opportunities with
 Young Demographers. We find it important to do that, since it is always
 great to remind that our ideas are great and our papers can be
 competitive to experienced scientists.</em></p>
-<hr />
-<div id="come-to-belfast" class="section level4">
-<h4>Come to Belfast!</h4>
+<div id="come-to-belfast" class="section level3">
+<h3>Come to Belfast!</h3>
 <p><strong>Type:</strong> Call for Papers: 12th International Conference
 on Population Geographies, Belfast, 30th June - 3rd July 2024</p>
 <p><strong>Deadline:</strong> 10 January</p>
@@ -333,11 +331,33 @@ conference.</p>
 href="http://go.qub.ac.uk/ICPG24"
 class="uri">http://go.qub.ac.uk/ICPG24</a></p>
 <hr />
-<p><strong>Do you have any other opportunity for YD audience? Send it to
-us and we will share it!</strong></p>
+</div>
+</div>
+<div id="inspirative-demographic-artwork" class="section level1">
+<h1>Inspirative demographic (art)work</h1>
+<p><em>And time to time we are also ask to share some other interesting
+and inspirational things. We think that demography is not just some
+scientific field, but it could be much more – fun, cognition, art and
+much more.</em></p>
+<div id="tak-trochu-jiná-doporučená-demografická-literatura"
+class="section level3">
+<h3>(Tak trochu jiná) doporučená demografická literatura</h3>
+<p><em>Note: Unfortunately, this poetry collection named “(A slightly
+different) recommended demographic literature” was written in Czech and
+there is no English translation (yet!).</em></p>
+<p>Básnická sbírka plná inspirativních básní a jiných životních mouder s
+čistě demografickou tématikou. Najdete v ní zrýmované postupy konstrukce
+demografických ukazatelů, demografické variace klasické poezie a mnoho
+dalšího. <a
+href="https://drive.google.com/file/d/1oBIUUbv_bBFUAle0fTP3OG8jhuMoHkBr/view?usp=sharing">Ve
+formátu pdf ji můžete otevřít a stáhnout zde.</a></p>
+<hr />
+<p><strong>Do you have any other opportunity or interesting work for
+share with YD audience? Send it to us and we will share it!</strong></p>
 <p><em>jitka.slaba at natur.cuni.cz</em><br />
 <em>anna.altova at natur.cuni.cz</em><br />
 <em>katerina.brazova at natur.cuni.cz</em></p>
+</div>
 </div>
 
 
