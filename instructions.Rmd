@@ -4,7 +4,7 @@ pagetitle: Instructions for Authors
 
 <link rel="stylesheet" href="styles.css" type="text/css">
 
-Instructions for authors (might be slightly updated for 2024)
+Instructions for authors (might be slightly updated for 2025)
 
 
 #### Oral sessions: ####
